@@ -1,0 +1,21 @@
+{
+  "name": "spacex_launch",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX Launch missions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "Gutu Galuppo (Brad Traversy Tutorial)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

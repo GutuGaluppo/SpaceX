@@ -10,7 +10,7 @@ app.use(cors());
 
 app.use('/graphql', graphqlHTTP({
     schema,
-    graphiql:true // The tool that allows us to use our client to make queries to our server
+    graphiql:true //The tool that allows us to use our client to make queries to our server
 }));
 
 const PORT = process.env.PORT  || 5000;
